@@ -23,6 +23,11 @@ configure:
 	sudo apt install -y p7zip unrar mpv rhythmbox gimp inkscape brasero \
 	screenfetch neofetch kid3 gnome-tweaks keepassxc virtualbox linphone \
 	soundconverter gparted audacity anki geogebra thunderbird gnome-clocks
+	# Custom GNOME shortcuts
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up \
+	"['<Super>Page_Up', '<Control><Alt>Up', '<Control><Alt>k']"
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down \
+	"['<Super>Page_Down', '<Control><Alt>Down', '<Control><Alt>j']"
 	# Clean packages
 	#sudo apt autoremove
 
