@@ -22,6 +22,7 @@ Install fonts from files.
 Reboot (select gnome-shell in GDM), and after that, install manually:
 
 - VS Code (sync config)
+- DBeaver
 
 Configure Firefox properly and change this in `about:config`:
 
